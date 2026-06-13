@@ -1,0 +1,197 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f8f8f8;
+color:#222;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:white;
+position:sticky;
+top:0;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:black;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+padding:80px 10%;
+gap:50px;
+background:white;
+}
+
+.hero img{
+width:320px;
+border-radius:15px;
+}
+
+.hero-right h1{
+font-size:4rem;
+}
+
+.hero-right h3{
+margin:15px 0;
+color:#666;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:black;
+color:rgb(255, 255, 255);
+text-decoration:none;
+border-radius:6px;
+}
+
+.fa-brands,
+.fa-solid {
+  color: inherit;
+  gap: 28px;
+  margin: 0.5rem;
+  width: 45px;
+  font-size: 25px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  height: 25px;
+}
+
+.social-icons a {
+  color: #000000;
+  margin-right: 10px;
+  font-size: 24px;
+  width: 41px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8eeee;
+  align-self: start;
+  border-radius: 20%;
+}
+
+.hero-right .social-icons a:hover {
+  color: #02212b;
+  transform: scale(1.21); /* Slightly bigger on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+}
+
+
+.section{
+padding:80px 10%;
+}
+
+.section h2{
+font-size:2.5rem;
+margin-bottom:30px;
+}
+
+.timeline{
+display:grid;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.skills-grid div{
+background:white;
+padding:20px;
+text-align:center;
+border-radius:10px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:white;
+padding:20px;
+border-radius:10px;
+}
+
+.project-card img{
+width:100%;
+border-radius:10px;
+}
+
+.testimonial{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:10px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,textarea{
+padding:15px;
+border:1px solid #ccc;
+}
+
+button{
+padding:15px;
+background:black;
+color:white;
+border:none;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:black;
+color:white;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero img{
+width:250px;
+}
+
+.hero-right h1{
+font-size:2.8rem;
+}
+
+}
