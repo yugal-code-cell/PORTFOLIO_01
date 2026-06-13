@@ -58,10 +58,44 @@ display:inline-block;
 margin-top:20px;
 padding:12px 25px;
 background:black;
-color:white;
+color:rgb(255, 255, 255);
 text-decoration:none;
 border-radius:6px;
 }
+
+.fa-brands,
+.fa-solid {
+  color: inherit;
+  gap: 28px;
+  margin: 0.5rem;
+  width: 45px;
+  font-size: 25px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  height: 25px;
+}
+
+.social-icons a {
+  color: #000000;
+  margin-right: 10px;
+  font-size: 24px;
+  width: 41px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8eeee;
+  align-self: start;
+  border-radius: 20%;
+}
+
+.hero-right .social-icons a:hover {
+  color: #02212b;
+  transform: scale(1.21); /* Slightly bigger on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+}
+
 
 .section{
 padding:80px 10%;
